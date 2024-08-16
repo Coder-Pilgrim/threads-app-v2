@@ -20,8 +20,6 @@ async function Page() {
     image: userInfo ? userInfo?.image : user.imageUrl,
   };
 
-  console.log("userData", userData);
-  console.log("userInfo", userInfo);
 
   return (
     <main className="mx-auto flex max-w-3xl flex-col justify-start px-10 py-20">
